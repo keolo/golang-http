@@ -7,7 +7,7 @@ import (
 )
 
 func handler(w http.ResponseWriter, r *http.Request) {
-	title := "This really is game changing!"
+	title := "Once again."
 
 	from := ""
 	if r.URL != nil {
@@ -17,7 +17,7 @@ func handler(w http.ResponseWriter, r *http.Request) {
 		log.Printf("title: %s\n", title)
 	}
 
-	fmt.Fprintf(w, "Hello from:  "+title+"\n")
+	fmt.Fprintf(w, "Helloz from:  "+title+"\n")
 }
 
 func main() {
