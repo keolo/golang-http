@@ -1,4 +1,4 @@
-pipeline {
+fpipeline {
     agent {
         label "jenkins-go"
     }
