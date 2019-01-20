@@ -8,8 +8,8 @@ import (
 
 func handler(w http.ResponseWriter, r *http.Request) {
 	title := "This looks good. Let's deploy it."
-
 	from := ""
+
 	if r.URL != nil {
 		from = r.URL.String()
 	}
